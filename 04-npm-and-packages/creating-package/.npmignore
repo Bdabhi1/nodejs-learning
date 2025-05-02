@@ -1,0 +1,36 @@
+# Test files
+tests/
+coverage/
+jest.config.js
+
+# Development files
+.github/
+.vscode/
+.editorconfig
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD
+.travis.yml
+.circleci/
+.github/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Examples and documentation that shouldn't be published
+examples/
+docs/ 

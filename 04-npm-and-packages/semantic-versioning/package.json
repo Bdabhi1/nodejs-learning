@@ -1,0 +1,36 @@
+{
+  "name": "semver-examples",
+  "version": "1.0.0",
+  "description": "Examples of semantic versioning in npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "show-versions": "node version-demo.js"
+  },
+  "keywords": [
+    "semver",
+    "versioning",
+    "npm",
+    "example"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "exact-package": "1.0.0",
+    "caret-package": "^2.1.0",
+    "tilde-package": "~3.1.0",
+    "star-package": "*",
+    "range-package": ">=4.0.0 <5.0.0",
+    "or-package": "2.0.0 || 3.0.0",
+    "x-package": "1.x.x"
+  },
+  "devDependencies": {
+    "dev-exact": "1.0.0",
+    "dev-caret": "^0.1.0",
+    "dev-tilde": "~0.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true
+} 

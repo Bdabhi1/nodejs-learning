@@ -1,0 +1,39 @@
+{
+  "name": "basic-npm-project",
+  "version": "1.0.0",
+  "description": "A basic npm project example for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "keywords": [
+    "example",
+    "nodejs",
+    "npm",
+    "beginner"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/basic-npm-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/basic-npm-project/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "private": true
+} 
