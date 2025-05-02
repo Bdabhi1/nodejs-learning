@@ -1,0 +1,17 @@
+{
+  "name": "es-modules-example",
+  "version": "1.0.0",
+  "description": "Example of ES modules in Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "modules",
+    "es-modules",
+    "node.js"
+  ],
+  "author": "",
+  "license": "ISC"
+} 
